@@ -6,14 +6,15 @@ USAD for the Android phone and the Windows computer.
 
 **Go to the latest version:** https://github.com/sojijimenez/usad-downloads/releases/latest
 
-On that page, scroll down to **Assets** and pick one file:
+USAD has two apps: one for the phone and one for the computer. Download the app for **each device you will use**.
+If you use both a phone and a computer, download **both**. On that page, scroll down to **Assets**:
 
-| I have... | Download |
-|---|---|
-| An Android phone | `USAD-Mobile-<version>-release.apk` |
-| A Windows computer | `USAD-Desktop-Setup.exe` |
+| Device | App | File to download |
+|---|---|---|
+| Android phone | USAD Mobile | `USAD-Mobile-<version>-release.apk` |
+| Windows computer | USAD Desktop | `USAD-Desktop-Setup.exe` |
 
-Not sure how to use it? Open the `READ ME FIRST` PDF (full guide) or the `QUICK START` picture on the same page.
+New to USAD? Start with the `READ ME FIRST` PDF (full guide) or the `QUICK START` picture on the same page.
 Ignore "Source code (zip)" and "Source code (tar.gz)": GitHub adds them automatically and you do not need them.
 
 The page itself also has step-by-step install instructions for phone and computer.
