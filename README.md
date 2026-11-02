@@ -1,16 +1,26 @@
 # USAD downloads
 
-USAD for the Android phone and the Windows PC.
+USAD for the Android phone and the Windows computer.
 
-**Download the latest version:** https://github.com/sojijimenez/usad-downloads/releases/latest
+## Download
 
-Under "Assets" on that page:
-- `USAD-Mobile-<version>-release.apk` - Android phone
-- `USAD-Desktop-Setup.exe` - Windows PC
-- `READ ME FIRST - USAD Tester Pack.pdf` and `QUICK START - USAD Tester Pack.png` - start here
+**Go to the latest version:** https://github.com/sojijimenez/usad-downloads/releases/latest
 
-**Windows warning:** the installer is not code-signed, so Windows may say "Windows protected your PC".
-Click "More info", then "Run anyway".
+On that page, scroll down to **Assets** and pick one file:
 
-**Check your download (optional):** open PowerShell in the folder with the file and run
-`Get-FileHash .\<file name>`, then compare with `SHA256SUMS.txt` on the release page.
+| I have... | Download |
+|---|---|
+| An Android phone | `USAD-Mobile-<version>-release.apk` |
+| A Windows computer | `USAD-Desktop-Setup.exe` |
+
+Not sure how to use it? Open the `READ ME FIRST` PDF (full guide) or the `QUICK START` picture on the same page.
+Ignore "Source code (zip)" and "Source code (tar.gz)": GitHub adds them automatically and you do not need them.
+
+The page itself also has step-by-step install instructions for phone and computer.
+
+## Warnings you may see
+- **Windows:** "Windows protected your PC". The installer is not code-signed. Click **More info**, then **Run anyway**.
+- **Android:** "Can't install apps from this source". Tap **Settings**, switch on **Allow from this source**, then go back and tap **Install**.
+
+## Check your download (optional)
+Open PowerShell in the folder with the file and run `Get-FileHash .\<file name>`, then compare with `SHA256SUMS.txt` on the release page.
